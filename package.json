@@ -1,0 +1,80 @@
+{
+  "name": "LulzBot",
+  "version": "2.3.5",
+  "description": "LightWeight Whatsapp Bot using baileys",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "termux",
+    "whatsapp-openai",
+    "whatsapp-openai",
+    "whatsapp-bot",
+    "whatsapp-baileys",
+    "baileys-md",
+    "bot-wa",
+    "bot-md",
+    "whatsapp-multi-device"
+  ],
+  "base": "https://github.com/sansekai/Wa-OpenAI",
+  "author": "AdjiDev",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@hapi/boom": "^10.0.0",
+    "archiver": "^7.0.1",
+    "awesome-phonenumber": "^2.64.0",
+    "axios": "^1.3.4",
+    "baileys": "github:adjidev/baileys",
+    "better-sqlite3": "^11.5.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0",
+    "cloudscraper": "^4.6.0",
+    "colors": "^1.4.0",
+    "crypto": "^1.0.1",
+    "exiftool-vendored": "^28.7.0",
+    "fake-useragent": "^1.0.1",
+    "figlet": "^1.5.2",
+    "file-type": "^16.5.4",
+    "fluent-ffmpeg": "^2.1.3",
+    "fluent-ffmpeg-7": "^2.1.5",
+    "fs": "0.0.1-security",
+    "google-tts-api": "^2.0.2",
+    "gradient-string": "^1.2.0",
+    "hpack": "^1.0.0",
+    "javascript-obfuscator": "^4.1.1",
+    "jimp": "^0.16.13",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.46",
+    "node-cache": "^5.1.2",
+    "node-id3": "^0.2.6",
+    "node-webpmux": "^3.2.0",
+    "node-youtube-music": "^0.10.3",
+    "openai": "^4.20.1",
+    "ora": "^4.1.1",
+    "pino": "^7.11.0",
+    "qrcode-terminal": "^0.12.0",
+    "qs": "^6.13.0",
+    "sharp": "^0.32.6",
+    "simple-git": "^3.27.0",
+    "sqlite3": "^5.1.7",
+    "syntax-error": "^1.4.0",
+    "user-agents": "^1.1.384",
+    "util": "^0.12.4",
+    "ytdl-core": "^4.11.5"
+  },
+  "directories": {
+    "lib": "lib",
+    "src": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdjidDev/adjibot"
+  },
+  "bugs": {
+    "url": "https://github.com/AdjidDev/adjibot/issues"
+  },
+  "homepage": "https://github.com/AdjidDev/adjibot#readme"
+}
